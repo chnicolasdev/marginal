@@ -1,0 +1,38 @@
+/*
+Theme Name: oxido_starter
+Theme URI: http://oxidocs.com/
+Author: Oxido Creative Studio
+Author URI: https://oxidocs.com
+Description: Plantilla diseñada por Oxido Creative Studio
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: oxido-starter
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+oxido_starter is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
+*/
+@import "navbar/navbar_custom";
+@import "slider/slider_custom";
+@import "slider/slider_clientes";
+@import "quienes/quienes_custom";
+@import "contacto/contacto_custom";
+@import "footer/footer_custom";
+@import "servicios/servicios_custom";
+@import "servicios/page_servicios";
+@import "portafolio/portafolio_custom";
+@import "noticias/imagen_noticias_footer";
+@import "noticias/imagen_noticias_custom";
+@import "noticias/noticias_content";
+@import "nosotros/nosotros_custom";
+@import "tipografia/tipografia";
+@import "inicio/inicio_custom";
+@import "media_query/media_query_custom";
+@import "clientes/slider_clientes";

@@ -1,0 +1,43 @@
+
+
+// .inner {
+//     width: 100%;
+//     height: 450px;
+//     background-position: center;
+//     background-size: cover;
+// }
+
+.imgsliderhome {
+	height: 100vh !important;
+    background-size:cover;
+    background-repeat:no-repeat;
+    width: 100% !important;
+    background-position: center center;
+    background-color: #000000;
+ }
+
+.actions a {
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 2px;
+    transition: 0.5s;
+    margin: 10px;
+}
+
+.btn-get-started {
+    background: #000000;
+    border: 2px solid #821919;
+    color: #ffffff;
+}
+
+.actions {
+overflow: hidden;
+position: absolute;
+left: 43%;
+top: 75%;
+}

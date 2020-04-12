@@ -1,0 +1,261 @@
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+    /*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+        .logo-pequeno {
+            width: 30%;
+            padding-top: 10px;
+        }
+
+        .imglogofooter{
+            width: 70%;
+        }
+
+        .padding-social {
+            padding-bottom: 30px !important;
+        }
+
+        .center-social-media {
+            text-align: center;
+        }
+
+        .img-30 {
+            width: 60%;
+            height: auto;
+        }
+
+        .img-50 {
+            width: 60%;
+            height: auto;
+        }
+
+        .img-websense {
+            width: 40%;
+            height: auto;
+        }
+
+        .img-board1 {
+            width: 90%;
+            height: auto;
+        }
+
+        .img-board2 {
+            width: 70%;
+            height: auto;
+        }
+        
+        .img-board3 {
+            width: 50%;
+            height: auto;
+        }
+
+        .img-board4 {
+            width: 40%;
+            height: auto;
+        }
+
+        .img-board5 {
+            width: 30%;
+            height: auto;
+        }
+
+        .footer-img {
+            width: 50%;
+            height: auto;
+        }
+
+        .actions {
+            left: 27% !important;
+        }
+
+
+    }
+
+    @media only screen and (min-width : 375px) {
+        .logo-pequeno {
+            width: 30%;
+            padding-top: 10px;
+        }
+
+        // .tamano-clientes {
+        //     width: 100% !important;
+        //     height: auto;
+
+        // }
+    }
+
+    @media only screen and (min-width : 425px) {
+        .logo-pequeno {
+            width: 30%;
+            padding-top: 10px;
+        }
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 767px) {
+        .logo-pequeno {
+            width: 80%;
+            padding-top: 10px;
+        }
+
+        .comercial {
+            width: 70%;
+            height: auto;
+            padding-top: 100px;
+        }
+
+        .img-20 {
+            width: 20%;
+            height: auto;
+        }
+
+       .img-30 {
+            width: 30% !important;
+            height: auto !important;
+        }
+
+        .img-40 {
+            width: 40%;
+            height: auto;
+        }
+
+        .img-50 {
+            width: 50%;
+            height: auto;
+        }
+
+        .img-board1 {
+            width: 100%;
+            height: auto;
+        }
+
+        .img-60 {
+            width: 60%;
+            height: auto;           
+        }
+
+        .finanzas-top {
+            padding-top: 50px;
+        }
+
+        .alinear-texto {
+            padding-left: 150px;
+        }
+
+        
+        
+        .text-banca {
+            padding-top: 50px;
+        }
+
+        .img-industria {
+            padding-right: 200px;
+        }
+
+        .row-caja{
+            display: -ms-flex;
+            display: -webkit-flex;
+            display: flex;
+        }
+
+        .alinear-vertical{
+            display: -ms-flex;
+            display: -webkit-flex;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }   
+
+        .img-90 {
+            width: 90%;
+            height: auto;
+        }
+
+        .actions {
+            left: 42% !important;
+        }
+
+        .img-board2 {
+            width: 100%;
+            height: auto;
+        }
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+        .imglogofooter{
+            width: 100%;
+        }
+
+        
+    }
+
+    @media only screen and (min-width : 1024px) {
+
+        .actions {
+            left: 43% !important;
+        }
+
+
+
+    }
+
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+    }
+
+    /*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 1024px) {
+        .contacto-footer {
+          display: flex !important;
+          justify-content: center !important;
+        }
+
+        .imgsliderhome{
+            height: 70vh !important;
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 100% !important;
+            background-position: center center;
+        }
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+
+    }
